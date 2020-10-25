@@ -7,6 +7,34 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## About Project
+
+Tic Tac Toe with laravel
+In this project I made a simple tic-tac-toe game using Laravel framework, PHP , html, CSS ,Bootstrap and MySQL.
+-Functional requirements 
+-The application must have a login
+-The application must have an about page
+-the application must have an history page were the last games are shown
+-Nonfunctional Requirements 
+The application must use a framework
+The application must have a data base in MySQL
+The application must use CSS/Bootstrap4
+
+
+## Guide to install the project
+- Download the repository
+- Unzip the folder inside the Valet / Laragon directory
+- Create a new file .env and copy the content of .env.example.
+- Create a data base for the project with the name of laravel and define this fields in your .env
+
+DB_DATABASE=laravel
+
+DB_USERNAME=root
+
+DB_PASSWORD=
+- Run composer install
+- Run php artisan key:generate
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
